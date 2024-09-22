@@ -1,0 +1,58 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    z-index: 10;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    z-index: 10;
+    border-top: 2px solid black;
+}
+
+body {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#diez_de_diamantes, #sota_de_diamantes, #reina_de_diamantes, #rey_de_diamantes, #as_de_diamantes {
+    position: absolute;
+}
+
+#diez_de_diamantes {
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+
+#sota_de_diamantes {
+    left: 140px;
+    top: 130px;
+    z-index: 2;
+}
+
+#reina_de_diamantes {
+    left: 180px;
+    top: 160px;
+    z-index: 3;
+}
+
+#rey_de_diamantes {
+    left: 220px;
+    top: 190px;
+    z-index: 4;
+}
+
+#as_de_diamantes {
+    left: 260px;
+    top: 220px;
+    z-index: 5;
+}
